@@ -1,0 +1,17 @@
+;---------------------------------------------------------
+;  Vole Machine program
+; Purpose: initialize 3 variables (1,2,10) take them from memory add them
+; and display the result on screen (FF)
+; pc :03  start address 00
+;---------------------------------------------------------
+
+01        ; first variable on 0x00 with value 1
+02        ; second variable on 0x01 with value 2
+0A        ; third variable on 0x02 with value 10
+1000    ; load memory 0x00 on R0
+1101    ; load memory 0x01 on R1
+1202    ; load memory 0x02 on R2
+5301    ; add R0 and R1 and put result on R3
+5423    ; add R2 and R3 and put result on R4
+34FF   ; store result on memory 0xFF to display on screen
+C000   ; Halt
