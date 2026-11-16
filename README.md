@@ -97,4 +97,4 @@ If needed, the load address and entry point can be specified in comments:
     ; start address: 00
     ; pc: 00
 
-Public video link: [Paste the video URL here]
+Public video link: (https://youtu.be/ec2K7mD2Y6E)
