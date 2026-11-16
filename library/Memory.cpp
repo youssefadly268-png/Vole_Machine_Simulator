@@ -18,7 +18,6 @@ void Memory::writeCell(int index, const Cell& cell) {
 
 void Memory::clearScreen() {
    this->cells[255] = 0;
-    this->cells[0] = 0;
    this-> screen.clear();
 }
 
